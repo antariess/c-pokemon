@@ -6,6 +6,8 @@ namespace PokemonGame {
       Attack = 7;
       Health = 16;
       Type = "fire";
+      BasicAttackName = "scratch";
+      SpecialAttackName = "inferno";
     }
   }
 }

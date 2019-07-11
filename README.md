@@ -49,8 +49,12 @@ Concept: Pokemon class provides base stats, neutral type, and can be changed if 
 - Water - Basic attack and HP, Higher chance to evade, weak against Grass
 - Grass - Lower attack, higher HP, basic chance to evade, weak against Fire
 
+- Pokemon abilities: generic attack and special attack. Extended classes must be able to override base class. 
+
 Implementation: 
 - Pokemon base class in Pokemon.cs, stats as above. Added sound property with default value and private set method, cannot be changed outside of constructor. 
 - The need for a separate pokemon folder has arisen, so all pokemon now exist there. 
 - File for each different pokemon, which will make more sense once methods are added.
 - Most pokemon attributes are fields, which can be overridden and are in extending classes' constructors. Maintaining default value of sound throughout extensions. 
+
+- _All fields in Pokemon changed to properties, to apply encapsulation and protect the setting of the attributes. ATM using generic get and set property methods, .NET provides the background private fields automatically. 'set' property added as 'internal', if 'private' nothing can change it, but I want to be able to change it from extending classes, so with restriction level of 'internal' that can now happen. 'get' is public. Attributes cannot be chanced outside the class chain._ 

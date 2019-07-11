@@ -6,6 +6,8 @@ namespace PokemonGame {
       Attack = 3.5;
       Health = 23;
       Type = "grass";
+      BasicAttackName = "kick";
+      SpecialAttackName = "thunder clap";
     }
   }
 }

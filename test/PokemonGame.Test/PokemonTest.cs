@@ -20,6 +20,8 @@ namespace PokemonGame.Test
             Assert.Equal(20, genericmon.Health);
             Assert.Equal(0.2, genericmon.Evade);
             Assert.Equal("meep", genericmon.Sound);
+            Assert.Equal("bite", genericmon.BasicAttackName);
+            Assert.Equal("power blast", genericmon.SpecialAttackName);
         }
 
         [Fact]
@@ -36,6 +38,8 @@ namespace PokemonGame.Test
             Assert.Equal(16, firemon.Health);
             Assert.Equal(0.2, firemon.Evade);
             Assert.Equal("roar", firemon.Sound);
+            Assert.Equal("scratch", firemon.BasicAttackName);
+            Assert.Equal("inferno", firemon.SpecialAttackName);
         }
 
         [Fact]
@@ -52,6 +56,8 @@ namespace PokemonGame.Test
             Assert.Equal(20, watermon.Health);
             Assert.Equal(0.4, watermon.Evade);
             Assert.Equal("blub", watermon.Sound);
+            Assert.Equal("slap", watermon.BasicAttackName);
+            Assert.Equal("tsunami", watermon.SpecialAttackName);
         }
 
         [Fact]
@@ -68,6 +74,8 @@ namespace PokemonGame.Test
             Assert.Equal(23, grassmon.Health);
             Assert.Equal(0.2, grassmon.Evade);
             Assert.Equal("hsss", grassmon.Sound);
+            Assert.Equal("kick", grassmon.BasicAttackName);
+            Assert.Equal("thunder clap", grassmon.SpecialAttackName);
         }
     }
 }

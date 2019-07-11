@@ -5,6 +5,8 @@ namespace PokemonGame {
     public WaterPokemon(string sound = "blub") : base(sound){
       Evade= 0.4;
       Type = "water";
+      BasicAttackName = "slap";
+      SpecialAttackName = "tsunami";
     }
   }
 }
