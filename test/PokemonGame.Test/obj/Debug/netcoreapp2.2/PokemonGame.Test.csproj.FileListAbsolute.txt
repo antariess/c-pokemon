@@ -12,3 +12,6 @@
 /Users/antariess/NC/C-sharp/messing-about/c-pokemon/test/PokemonGame.Test/obj/Debug/netcoreapp2.2/PokemonGame.Test.AssemblyInfo.cs
 /Users/antariess/NC/C-sharp/messing-about/c-pokemon/test/PokemonGame.Test/obj/Debug/netcoreapp2.2/PokemonGame.Test.dll
 /Users/antariess/NC/C-sharp/messing-about/c-pokemon/test/PokemonGame.Test/obj/Debug/netcoreapp2.2/PokemonGame.Test.pdb
+/Users/antariess/NC/C-sharp/messing-about/c-pokemon/test/PokemonGame.Test/bin/Debug/netcoreapp2.2/PokemonGame.dll
+/Users/antariess/NC/C-sharp/messing-about/c-pokemon/test/PokemonGame.Test/bin/Debug/netcoreapp2.2/PokemonGame.pdb
+/Users/antariess/NC/C-sharp/messing-about/c-pokemon/test/PokemonGame.Test/obj/Debug/netcoreapp2.2/PokemonGame.Test.csproj.CopyComplete
