@@ -2,12 +2,12 @@ using System;
 
 namespace PokemonGame {
   public class Pokemon {
-    public Pokemon (){
+    public Pokemon (string sound = "meep"){
       Attack = 5;
       Health= 20;
       Evade = 0.2;
       Type = "neutral";
-      Sound = "meep";
+      Sound = sound;
     }
 
     public double Attack;

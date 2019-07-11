@@ -48,3 +48,6 @@ Concept: Pokemon class provides base stats, neutral type, and can be changed if 
 - Fire - Higher attack, lower HP, basic chance to evade, weak against Water
 - Water - Basic attack and HP, Higher chance to evade, weak against Grass
 - Grass - Lower attack, higher HP, basic chance to evade, weak against Fire
+
+Implementation: 
+- Pokemon base class in Pokemon.cs, stats as above. Added sound property with default value and private set method. 
