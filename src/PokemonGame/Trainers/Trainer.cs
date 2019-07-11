@@ -11,16 +11,16 @@ namespace PokemonGame {
 
     public string Name {
       get;
-      set;
+      private set;
     }
 
     public List<object> Pocket {
       get;
-      set;
+      private set;
     }
 
     public void catchPokemon(Pokemon pokemon){
-
+      Pocket.Add(pokemon);
     }
   }
 }

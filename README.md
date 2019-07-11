@@ -57,4 +57,9 @@ Implementation:
 - File for each different pokemon, which will make more sense once methods are added.
 - Most pokemon attributes are fields, which can be overridden and are in extending classes' constructors. Maintaining default value of sound throughout extensions. 
 
-- _All fields in Pokemon changed to properties, to apply encapsulation and protect the setting of the attributes. ATM using generic get and set property methods, .NET provides the background private fields automatically. 'set' property added as 'internal', if 'private' nothing can change it, but I want to be able to change it from extending classes, so with restriction level of 'internal' that can now happen. 'get' is public. Attributes cannot be chanced outside the class chain._ 
+- _All fields in Pokemon changed to properties, to apply encapsulation and protect the setting of the attributes. ATM using generic get and set property methods, .NET provides the background private fields automatically. 'set' property added as 'internal', if 'private' nothing can change it, but I want to be able to change it from extending classes, so with restriction level of 'internal' that can now happen. 'get' is public. Attributes cannot be chanced outside the class chain._
+
+## Trainers cont
+- Trainers now have their own folder
+- Non-Playable Trainer class in respective file, have animosity, which will determine how likely they are to flee a fight
+

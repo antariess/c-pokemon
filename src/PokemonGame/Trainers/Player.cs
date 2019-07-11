@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace PokemonGame {
   public class Player : Trainer {
-    public Player(string name, string personality):base(name){
+    public Player(string name, string personality) : base(name){
       Personality = personality;
     }
 
@@ -12,7 +12,5 @@ namespace PokemonGame {
       get;
       set;
     }
-
-    
   }
 }
