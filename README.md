@@ -50,4 +50,7 @@ Concept: Pokemon class provides base stats, neutral type, and can be changed if 
 - Grass - Lower attack, higher HP, basic chance to evade, weak against Fire
 
 Implementation: 
-- Pokemon base class in Pokemon.cs, stats as above. Added sound property with default value and private set method. 
+- Pokemon base class in Pokemon.cs, stats as above. Added sound property with default value and private set method, cannot be changed outside of constructor. 
+- The need for a separate pokemon folder has arisen, so all pokemon now exist there. 
+- File for each different pokemon, which will make more sense once methods are added.
+- Most pokemon attributes are fields, which can be overridden and are in extending classes' constructors. Maintaining default value of sound throughout extensions. 
