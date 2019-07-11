@@ -1,4 +1,4 @@
-# c-pokemon
+# c#-pokemon
 messing about with c# by replicating base functionality of Pokemon, writing up commentary as I go along. 
 
 ## Record of setup: 
@@ -31,7 +31,7 @@ C-Pokemon
 ## Set up cont...
 - link PokemonGame with PokemonGame.Test projects using `dotnet add reference ../../src/PokemonGame/PokemonGame.csproj` in PokemonGame.Test folder. 
 
-## Workign on Trainer Class
+## Working on Trainer Class
 
 Concept: An abstract Trainer class which has a name and a pocket to store Pokemon. Extends to create Player and NPTrainer. Player class has a personality, and NPTrainer has animosity level.
 
@@ -40,3 +40,11 @@ Implementation:
 - Player.cs extends Trainer.cs and adds personality. 
 - Testing for base properties, as well as personality. 
 - The compiler prevents a lot of foolishness pretty much there and then, so difficult to see a test fail before passing. 
+
+## Working on Pokemon Class 
+
+Concept: Pokemon class provides base stats, neutral type, and can be changed if made a specific type
+- Neutral - basic stats: attack: 5, HP: 20, evade: 0.2
+- Fire - Higher attack, lower HP, basic chance to evade, weak against Water
+- Water - Basic attack and HP, Higher chance to evade, weak against Grass
+- Grass - Lower attack, higher HP, basic chance to evade, weak against Fire

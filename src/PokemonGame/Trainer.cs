@@ -18,5 +18,9 @@ namespace PokemonGame {
       get;
       set;
     }
+
+    public void catchPokemon(Pokemon pokemon){
+
+    }
   }
 }
