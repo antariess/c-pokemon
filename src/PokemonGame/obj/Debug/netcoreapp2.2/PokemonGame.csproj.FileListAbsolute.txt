@@ -1,0 +1,11 @@
+/Users/antariess/NC/C-sharp/messing-about/c-pokemon/src/PokemonGame/bin/Debug/netcoreapp2.2/PokemonGame.deps.json
+/Users/antariess/NC/C-sharp/messing-about/c-pokemon/src/PokemonGame/bin/Debug/netcoreapp2.2/PokemonGame.runtimeconfig.json
+/Users/antariess/NC/C-sharp/messing-about/c-pokemon/src/PokemonGame/bin/Debug/netcoreapp2.2/PokemonGame.runtimeconfig.dev.json
+/Users/antariess/NC/C-sharp/messing-about/c-pokemon/src/PokemonGame/bin/Debug/netcoreapp2.2/PokemonGame.dll
+/Users/antariess/NC/C-sharp/messing-about/c-pokemon/src/PokemonGame/bin/Debug/netcoreapp2.2/PokemonGame.pdb
+/Users/antariess/NC/C-sharp/messing-about/c-pokemon/src/PokemonGame/obj/Debug/netcoreapp2.2/PokemonGame.csprojAssemblyReference.cache
+/Users/antariess/NC/C-sharp/messing-about/c-pokemon/src/PokemonGame/obj/Debug/netcoreapp2.2/PokemonGame.csproj.CoreCompileInputs.cache
+/Users/antariess/NC/C-sharp/messing-about/c-pokemon/src/PokemonGame/obj/Debug/netcoreapp2.2/PokemonGame.AssemblyInfoInputs.cache
+/Users/antariess/NC/C-sharp/messing-about/c-pokemon/src/PokemonGame/obj/Debug/netcoreapp2.2/PokemonGame.AssemblyInfo.cs
+/Users/antariess/NC/C-sharp/messing-about/c-pokemon/src/PokemonGame/obj/Debug/netcoreapp2.2/PokemonGame.dll
+/Users/antariess/NC/C-sharp/messing-about/c-pokemon/src/PokemonGame/obj/Debug/netcoreapp2.2/PokemonGame.pdb
