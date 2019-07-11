@@ -3,6 +3,7 @@ using System;
 namespace PokemonGame {
   public class Pokemon {
     public Pokemon (string sound = "meep", string basicAttackName = "bite", string specialAttackName = "power blast"){
+      Name = "Eevee";
       Attack = 5;
       Health = 20;
       Evade = 0.2;
@@ -12,13 +13,18 @@ namespace PokemonGame {
       SpecialAttackName = specialAttackName;
     }
 
+    public string Name{
+      get;
+      protected set;
+    }
+
     public double Attack {
       get;
-      internal set;
+      protected set;
     }
     public double Evade {
       get;
-      internal set;
+      protected set;
     }
     public double Health {
       get;
@@ -26,19 +32,19 @@ namespace PokemonGame {
     }
     public string Type {
       get;
-      internal set;
+      protected set;
     }
     public string BasicAttackName {
       get;
-      internal set;
+      protected set;
     }
     public string SpecialAttackName {
       get;
-      internal set;
+      protected set;
     }
     public string Sound {
       get; 
-      private set;
+      protected set;
     }
   }
 }

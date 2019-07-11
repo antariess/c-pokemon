@@ -18,7 +18,7 @@ namespace PokemonGame.Test
             // assert
             Assert.Equal("Misty", misty.Name);
             Assert.Equal("bubbly", misty.Personality);
-            Assert.True(misty.Pocket is List<object>);
+            Assert.True(misty.Pocket is List<Pokemon>);
             Assert.Empty(misty.Pocket);
         }
 

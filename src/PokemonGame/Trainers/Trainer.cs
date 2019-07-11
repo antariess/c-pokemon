@@ -6,7 +6,7 @@ namespace PokemonGame {
   public abstract class Trainer {
     public Trainer(string name){
       Name = name;
-      Pocket = new List<object>{};
+      Pocket = new List<Pokemon>{};
     }
 
     public string Name {
@@ -14,7 +14,7 @@ namespace PokemonGame {
       private set;
     }
 
-    public List<object> Pocket {
+    public List<Pokemon> Pocket {
       get;
       private set;
     }

@@ -63,3 +63,23 @@ Implementation:
 - Trainers now have their own folder
 - Non-Playable Trainer class in respective file, have animosity, which will determine how likely they are to flee a fight
 
+## Battle
+Concept:
+- keeps track of turn
+- meets two trainers who have caught pokemon
+- attack method for a single attack
+- fight method which repeats attack and swaps turn until one pokemon has fainted
+- method to calc if missed
+- method to calc damage
+- ability to choose which skill to use? default to base attack
+
+
+Implementation
+- protected turn property
+- does take trainer instances
+- methods work as expected, not implemented choosing skill _yet_
+- not quite sure how to test battle class.....
+
+### Changes after working on Battler: 
+- Pokemons now have names.
+- changed access modifier of Pokemon attributes to protected so only changeable in class and derived classes, apart from Health, which is internal as needs to change during battle. 
